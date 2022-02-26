@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link href="https://unpkg.com/css-pro-layout/dist/css/css-pro-layout.min.css" rel="stylesheet" />
+        <title>Sidebar</title>
+    </head>
+    <body>
+        <div class="layout has-sidebar fixed-sidebar fixed-header">
+            <aside id="sidebar" class="sidebar break-point-lg">
+                <div class="sidebar-layout">
+                    <div class="sidebar-header">
+                        <img src="./images/logo.svg">
+                        <a id="btn-collapse" href="#">
+                            <img src="./images/menu.svg">
+                        </a>
+                    </div>
+                    <div class="sidebar-content">
+                        <nav class="menu">
+                            <ul>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon">
+                                            <img src="./images/grid.svg">
+                                        </span>
+                                        <span class="menu-title">Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon">
+                                            <img src="./images/pet.svg">
+                                        </span>
+                                        <span class="menu-title">Pets</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon">
+                                            <img src="./images/user.svg">
+                                        </span>
+                                        <span class="menu-title">Clientes</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon">
+                                            <img src="./images/vet.svg">
+                                        </span>
+                                        <span class="menu-title">Vets</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon">
+                                            <img src="./images/settings.svg">
+                                        </span>
+                                        <span class="menu-title">Ajustes</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="sidebar-footer">
+                        <img src="./images/photo.jpg" class="avatar">
+                        <div class="user_name">
+                            <span class="name">Eleanor Pena</span>
+                            <span class="job">Veterinária</span>
+                        </div>
+                        <img src="./images/log-out.svg" class="logout">
+                    </div>
+                </div>
+            </aside>
+            <div id="overlay" class="overlay"></div>
+            <div class="layout">
+                <header class="header">
+                    <a id="btn-toggle" href="#" class="sidebar-toggler break-point-lg">
+                        <img src="./images/menu.svg">
+                    </a>
+                </header>
+                <main class="content">
+                    <div>
+                        <h1>Dashboard</h1>
+                        <p>
+                            Layout responsivo com menu lateral(sidebar) avançado construído com CSS e Javascript vanilla.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Recursos</h2>
+                        <ul>
+                            <li>Totalmente responsivo</li>
+                            <li>Menu lateral colapsável	</li>
+                            <li>Customizável</li>
+                        </ul>
+                    </div>
+                    <footer class="footer">
+                        <small style="display: inline-block">
+                            © 2022 feito com
+                            <span style="color: red; font-size: 18px">&#10084;</span> por -
+                            <a target="_blank" href="https://github.com/vWernay"> Victor Lellis </a>
+                        </small>
+                    </footer>
+                </main>
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

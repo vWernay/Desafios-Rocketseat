@@ -1,0 +1,12 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+.term-tittle {
+    font-weight: bold;
+}
+
+.term-description {
+    font-weight: 600;
+}
