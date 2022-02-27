@@ -1,0 +1,62 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+body {
+  background: var(--body-bg-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 10rem;
+  padding: 10rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container p {
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: var(--purple);
+
+  margin-bottom: 2rem;
+}
+.container button {
+  outline: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid var(--purple);
+  border-radius: .325rem;
+
+  color: var(--purple);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+
+  width: 20rem;
+  height: 3rem;
+
+  margin: 0.5rem;
+}
+
+.avatar {
+  border: 2px solid var(--purple);
+  border-radius: 6rem;
+}
+
+.social-icons-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.social-icons-group img {
+  cursor: pointer;
+  margin: .8rem;
+}
