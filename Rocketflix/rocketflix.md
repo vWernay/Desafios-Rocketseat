@@ -1,7 +1,7 @@
 # Countdown RocketSeat
 
-<img src="images/index.jpg" alt="Countdown">
-<img src="images/modal.jpg" alt="Modal">
+<img src="src/assets/home.jpg" alt="Rocketflix">
+<img src="src/assets/home_with_movie.jpg" alt="Rocketflix">
 
 - Rocketflix challenge proposed by Rocketseat.
 
