@@ -10,4 +10,4 @@
 | [Sidebar](Sidebar/sidebar.md)                          | JS, CSS, HTML                  |
 | [Theme Switcher](ThemeSwitcher/theme-switcher.md)      | JS, CSS, HTML                  |
 | [Rocketflix](Rocketflix/rocketflix.md)                 | TS, SASS, React, Vite          |
-| [Socialtree](SocialTree/socialtree.md)                 | CSS, HTML                      |
+| [Social Tree](SocialTree/socialtree.md)                 | CSS, HTML                      |
