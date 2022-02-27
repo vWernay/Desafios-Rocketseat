@@ -16,6 +16,19 @@
 [![REACT](https://img.shields.io/badge/React-61dafb?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![VITE](https://img.shields.io/badge/Vite-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
+## 🚀 Getting started
+
+Clone the project and access the folder.
+
+Follow the steps below:
+```bash
+# Install the dependencies
+$ yarn or npm i
+# Start the project
+$ yarn start or npm run dev
+```
+The app will be available for access on your browser at http://localhost:3000
+
 ---
 
 <p align="center">Made with 💜 by Victor Lellis</p>
