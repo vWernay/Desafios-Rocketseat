@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+  
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+  
+body {
+    background: var(--background);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0 10px 0 10px;
+}
+
+@media (max-width: 900px) {
+    body {
+        width: 80%;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        width: 90%;
+    }
+}

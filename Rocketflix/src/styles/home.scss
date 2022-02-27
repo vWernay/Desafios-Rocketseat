@@ -1,0 +1,106 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--title);
+    padding-top: 7rem;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+
+    img {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+.search-movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    > span {
+        color: #fff;
+        display: block;
+        width: 28rem;
+        word-break: break-all;
+    }
+}
+
+.movie-details {
+    max-width: 39.5rem;
+    min-height: 20rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+
+    color: #FFFCF9;
+
+    img {
+        width: 170px;
+        height: 240px;
+        margin-top: 15px;
+        margin-right: 2rem;
+        float: left;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.button-primary {
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: var(--bg-button);
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    height: 46px;
+    width: 186px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+.button-icon {
+    background: url('../assets/shuffle.svg') no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+
+    height: 25px;
+    width: 35px;
+
+    margin-right: 16px;;
+}
+
+@media (max-width: 500px) {
+    .movie-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .movie-text {
+            margin: 1rem;
+        }
+    }
+    .search-movie {
+        flex-direction: column;
+        text-align: center;
+        > span {
+            width: 20rem;
+            word-break: break-word;
+        }
+    }
+}
