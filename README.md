@@ -12,3 +12,4 @@
 | [Rocketflix](Rocketflix/rocketflix.md)                 | TS, SASS, React, Vite          |
 | [Social Tree](SocialTree/socialtree.md)                | CSS, HTML                      |
 | [Rocketcard](Rocketcard/rocketcard.md)                 | JS, CSS, HTML, JQuery          |
+| [PricingTable](PricingTable/pricingtable.md)           | JS, CSS, HTML                  |
