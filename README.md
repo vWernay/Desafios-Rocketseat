@@ -1,3 +1,7 @@
+<div align="center">
+    <img alt="Two lightsabers making a cross, representing a 'challenge'" src=".github/cover.jfif" />
+</div>
+
 ## Challenges proposed by [Rocketseat](https://www.rocketseat.com.br/)
 
 ### Table of Challenges
