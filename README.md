@@ -1,8 +1,10 @@
+<h2 align="center">
+  Challenges proposed by<br/>
+  <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a>
+</h2>
 <div align="center">
     <img alt="Two lightsabers making a cross, representing a 'challenge'" src=".github/cover.jfif" />
 </div>
-
-## Challenges proposed by [Rocketseat](https://www.rocketseat.com.br/)
 
 ### Table of Challenges
 
